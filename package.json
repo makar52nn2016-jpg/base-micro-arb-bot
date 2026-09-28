@@ -1,0 +1,24 @@
+{
+  "name": "base-micro-arb-bot",
+  "version": "1.0.0",
+  "description": "Autonomous Base L2 micro-arbitrage bot using CDP SDK + free gas paymaster + GitHub Actions 24/7",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/bot.ts",
+    "dev": "tsx watch src/bot.ts",
+    "scan": "tsx src/arb-scanner.ts"
+  },
+  "dependencies": {
+    "@coinbase/cdp-sdk": "^0.0.0",
+    "dotenv": "^16.4.5",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "@types/node": "^22.5.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
