@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@aave/core-v3": "^1.19.3",
+    "@across-protocol/app-sdk": "^0.6.1",
     "@coinbase/cdp-sdk": "^1.57.0",
     "@openzeppelin/contracts": "^5.6.1",
     "dotenv": "^16.4.5",
