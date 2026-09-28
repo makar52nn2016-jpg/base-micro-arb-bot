@@ -9,7 +9,7 @@
     "scan": "tsx src/arb-scanner.ts"
   },
   "dependencies": {
-    "@coinbase/cdp-sdk": "^0.0.0",
+    "@coinbase/cdp-sdk": "^1.57.0",
     "dotenv": "^16.4.5",
     "viem": "^2.21.0"
   },
